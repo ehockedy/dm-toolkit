@@ -1,0 +1,14 @@
+#outer /* # is an id selector - id is used to identify one element */
+{
+    width:100%;
+    text-align: center;
+}
+.inner /* . is a class selector - class is used to identify more than one element */
+{
+    display: inline-block;
+}
+
+#dice_roller_button
+{
+    width: 50px
+}
