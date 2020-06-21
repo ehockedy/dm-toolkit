@@ -9,24 +9,26 @@
 
         <!-- Include AngularJS library -->
         <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.5/angular.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.5/angular-route.js"></script>
     </head>
     <body ng-app="myApp">
         <h1>DM's Online Toolkit</h1>
 
-        <div class="diceroller" ng-controller="DiceRollerController">
-            <div ng-repeat="x in [4, 6, 8, 10, 12, 20, 100]">
-                <div class="inner" ng-repeat="d in [1, 2, 3, 4]">
-                    <button id="dice_roller_button" ng-click="rollNdX(d,x)">{{d}}d{{x}}</button>
-                </div>
-            </div>
-            <p>{{ roll_text }} {{ latest_result }}</p>
-        </div>
+        <ul>
+            <li><a href="/#/">Dice roller</a></li>
+            <li><a href="/#/loot-generator">Loot Generator</a></li>
+          </ul>
 
+        <div ng-view></div>
+
+        <!-- todo why are these here nto in head-->
     <!-- Modules -->
     <script src="js/app.js"></script>
 
+
     <!-- Controllers -->
     <script src="js/controllers/DiceRollerController.js"></script>
+    <script src="js/controllers/LootGeneratorController.js"></script>
     
     </body>
 </html>
