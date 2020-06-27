@@ -1,0 +1,18 @@
+{
+    "low": [
+        {
+            "name": "gold",
+            "description": "50 pieces"
+        },
+        {
+            "name": "silver",
+            "description": "100 pieces"
+        }
+    ],
+    "med": [
+        {
+            "name": "ruby",
+            "description": ""
+        }
+    ]
+}
