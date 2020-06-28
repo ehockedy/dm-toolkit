@@ -1,5 +1,7 @@
 <div ng-controller="LootGeneratorController">
-    <button id="loot_generator_roller" ng-click="generate_loot('low')">Press to generate low loot</button>
-    <button id="loot_generator_roller" ng-click="generate_loot('med')">Press to generate med loot</button>
+    <div ng-repeat="x in [1, 2, 3, 4, 5]">
+        <button id="loot_generator_roller" ng-click="generate_loot('low', x)">{{x}} low value loot</button>
+        <button id="loot_generator_roller" ng-click="generate_loot('med', x)">{{x}} med value loot</button>
+    </div>
     <p>{{ loot }}</p>
 </div>

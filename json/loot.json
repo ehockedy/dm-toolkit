@@ -1,18 +1,88 @@
 {
-    "low": [
+    "low": 
         {
-            "name": "gold",
-            "description": "50 pieces"
-        },
-        {
-            "name": "silver",
-            "description": "100 pieces"
+            "common": [
+                {
+                    "name": "5 copper",
+                    "description": ""
+                },
+                {
+                    "name": "10 copper",
+                    "description": ""
+                },
+                {
+                    "name": "50 copper",
+                    "description": ""
+                },
+                {
+                    "name": "100 copper",
+                    "description": ""
+                },
+                {
+                    "name": "10 silver",
+                    "description": ""
+                },
+                {
+                    "name": "50 silver",
+                    "description": ""
+                },
+                {
+                    "name": "10 electrum",
+                    "description": ""
+                },
+                {
+                    "name": "10 gold",
+                    "description": ""
+                }
+            ],
+            "uncommon": [
+                {
+                    "name": "ruby",
+                    "description": ""
+                }
+            ],
+            "rare": [
+                {
+                    "name": "50 gold"
+                }
+            ],
+            "very rare": [
+                {
+                    "name": "Bag of Holding"
+                },
+                {
+                    "name": "Elemental armour"
+                }
+            ]
         }
-    ],
-    "med": [
+    ,
+    "med": 
         {
-            "name": "ruby",
-            "description": ""
+            "common": [
+                {
+                    "name": "ruby",
+                    "description": ""
+                },
+                {
+                    "name": "sapphire",
+                    "description": ""
+                }
+            ],
+            "uncommon": [
+                {
+                    "name": "50 gold",
+                    "description": ""
+                }
+            ],
+            "rare": [
+                {
+                    "name": "100 gold"
+                }
+            ],
+            "very rare": [
+                {
+                    "name": "Scroll of invisibility"
+                }
+            ]
         }
-    ]
 }
