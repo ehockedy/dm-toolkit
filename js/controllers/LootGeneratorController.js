@@ -9,12 +9,12 @@ app.controller('LootGeneratorController',
     var rarity = {
       COMMON: {
         name: "common",
-        chance : 60,
+        chance : 65,
         colour: "#00cc00" // green
       },
       UNCOMMON: {
         name: "uncommon",
-        chance: 30,
+        chance: 25,
         colour: "#0099ff" // blue
       },
       RARE: {
@@ -61,7 +61,7 @@ app.controller('LootGeneratorController',
         var rand_idx = Math.ceil(Math.random()*loot_count)-1;
         $scope.loot.push(
           {
-            name: $scope.loot_json[level][r.name][rand_idx].name,
+            name: $scope.loot_json[level][r.name][rand_idx],
             colour: r.colour
           }
         )

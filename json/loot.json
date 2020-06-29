@@ -2,111 +2,107 @@
     "low": 
         {
             "common": [
-                {
-                    "name": "5 copper",
-                    "description": ""
-                },
-                {
-                    "name": "10 copper",
-                    "description": ""
-                },
-                {
-                    "name": "50 copper",
-                    "description": ""
-                },
-                {
-                    "name": "100 copper",
-                    "description": ""
-                },
-                {
-                    "name": "10 silver",
-                    "description": ""
-                },
-                {
-                    "name": "50 silver",
-                    "description": ""
-                },
-                {
-                    "name": "10 electrum",
-                    "description": ""
-                },
-                {
-                    "name": "10 gold",
-                    "description": ""
-                }
+                "1 copper piece",
+                "5 copper pieces",
+                "10 copper pieces",
+                "20 copper pieces",
+                "50 copper pieces",
+                "100 copper pieces",
+                "200 copper pieces",
+
+                "1 silver piece",
+                "5 silver pieces",
+                "10 silver pieces",
+                "20 silver pieces",
+                "1 gold piece"
             ],
             "uncommon": [
-                {
-                    "name": "silver ring",
-                    "description": ""
-                },
-                {
-                    "name": "brass necklace",
-                    "description": ""
-                }
+                "silver ring",
+                "silver necklace",
+                "small bronze statue",
+                "500 copper pieces",
+                "50 silver pieces",
+                "5 gold pieces"
             ],
             "rare": [
-                {
-                    "name": "50 gold"
-                },
-                {
-                    "name": "gold ring",
-                    "description": ""
-                },
-                {
-                    "name": "ruby",
-                    "description": ""
-                },                {
-                    "name": "quartz",
-                    "description": ""
-                },                {
-                    "name": "emerald",
-                    "description": ""
-                },                {
-                    "name": "sapphire",
-                    "description": ""
-                }
+                "10 gold pieces",
+                "20 gold pieces",
+                "azurite",
+                "quartz",
+                "moonstone",
+                "onyx",
+                "silk hankerchief",
+                "silver hand mirror"
             ],
             "very rare": [
-                {
-                    "name": "Bag of Holding"
-                },
-                {
-                    "name": "elemental armour"
-                }
+                "gold ring",
+                "ruby",
+                "sapphire",
+                "quartz",
+                "emerald"
+            ]
+        },
+    "med":
+        {
+            "common": [
+                "200 copper pieces",
+                "500 copper pieces",
+                "10 silver pieces",
+                "20 silver pieces",
+                "50 silver pieces",
+                "100 silver pieces",
+                "200 silver pieces",
+                "5 gold pieces",
+                "10 gold pieces",
+                "silver ring",
+                "ruby",
+                "sapphire",
+                "quartz",
+                "emerald"
+            ],
+            "uncommon": [
+                "500 silver pieces",
+                "50 gold pieces",
+                "100 gold pieces"
+            ],
+            "rare": [
+                "gold crown",
+                "gold goblet",
+                "giant pearl",
+                "gold locket"
+            ],
+            "very rare": [
+                "diamond",
+                "black sapphire"
             ]
         }
     ,
-    "med": 
+    "magic": 
         {
             "common": [
-                {
-                    "name": "ruby",
-                    "description": ""
-                },
-                {
-                    "name": "sapphire",
-                    "description": ""
-                }
+                "healing potion",
+                "bag of seeds"
             ],
             "uncommon": [
-                {
-                    "name": "50 gold",
-                    "description": ""
-                }
+                "potion of greater healing",
+                "potion of bravery",
+                "potion of good luck",
+                "potion of skill",
+                "potion of accuracy",
+                "potion of strength",
+                "potion of resilience"
             ],
             "rare": [
-                {
-                    "name": "100 gold"
-                },
-                {
-                    "name": "diamond"
-                }
+                "potion of superior healing",
+                "scroll of invisibility",
+                "potion of climbing",
+                "potion of water breathing",
+                "potion of magic restore",
+                "poison antidote"
             ],
             "very rare": [
-                {
-                    "name": "scroll of invisibility"
-                }
+                "bag of holding",
+                "elemental armour"
             ]
-        }
+        }    
 }
