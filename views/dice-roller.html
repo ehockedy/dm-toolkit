@@ -4,5 +4,7 @@
             <button id="dice_roller_button" ng-click="rollNdX(d,x)">{{d}}d{{x}}</button>
         </div>
     </div>
-    <p>{{ roll_text }} {{ latest_result }}</p>
+    <p>{{ roll_text }} 
+        <span ng-repeat="res in latest_result track by $index" ng-style="{color: res.colour}" style="font-weight:bold">{{ res.number }}</span>
+    </p>
 </div>

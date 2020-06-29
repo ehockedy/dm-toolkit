@@ -37,13 +37,34 @@
             ],
             "uncommon": [
                 {
-                    "name": "ruby",
+                    "name": "silver ring",
+                    "description": ""
+                },
+                {
+                    "name": "brass necklace",
                     "description": ""
                 }
             ],
             "rare": [
                 {
                     "name": "50 gold"
+                },
+                {
+                    "name": "gold ring",
+                    "description": ""
+                },
+                {
+                    "name": "ruby",
+                    "description": ""
+                },                {
+                    "name": "quartz",
+                    "description": ""
+                },                {
+                    "name": "emerald",
+                    "description": ""
+                },                {
+                    "name": "sapphire",
+                    "description": ""
                 }
             ],
             "very rare": [
@@ -51,7 +72,7 @@
                     "name": "Bag of Holding"
                 },
                 {
-                    "name": "Elemental armour"
+                    "name": "elemental armour"
                 }
             ]
         }
@@ -77,11 +98,14 @@
             "rare": [
                 {
                     "name": "100 gold"
+                },
+                {
+                    "name": "diamond"
                 }
             ],
             "very rare": [
                 {
-                    "name": "Scroll of invisibility"
+                    "name": "scroll of invisibility"
                 }
             ]
         }

@@ -9,19 +9,23 @@ app.controller('LootGeneratorController',
     var rarity = {
       COMMON: {
         name: "common",
-        chance : 0.6
+        chance : 60,
+        colour: "#00cc00" // green
       },
       UNCOMMON: {
         name: "uncommon",
-        chance: 0.35
+        chance: 30,
+        colour: "#0099ff" // blue
       },
       RARE: {
         name: "rare",
-        chance: 0.04
+        chance: 9,
+        colour: "#9900ff" // purple
       },
       VERY_RARE: {
         name: "very rare",
-        chance: 0.01
+        chance: 1,
+        colour: "#ff9900" // orange
       }
     };
 
@@ -30,31 +34,44 @@ app.controller('LootGeneratorController',
       rarity.UNCOMMON.chance +
       rarity.RARE.chance +
       rarity.VERY_RARE.chance
-      == 1);
+      == 100);
 
     function generate_rarity() {
       // Generates a random number, then based on the above
       // json returns the string
-      var rand = Math.random();
+      var rand = Math.random()*100;
       console.log(rand)
       var cumulative = 0;
       for (var key in rarity) {
         cumulative += rarity[key].chance;
         if (rand < cumulative) {
-          return rarity[key].name;
+          return rarity[key];
         }
       }
     };
 
     $scope.generate_loot = function(level, num) {
-      $scope.loot = ""
+      // Returns an array of json with fields name and colour
+      // name is the string of the loot (or comma)
+      // colour is the colour that string will be displayed
+      $scope.loot = []
       for (var n = 0; n < num; n++) {
         var r = generate_rarity();
-        var loot_count = Object.keys($scope.loot_json[level][r]).length;
+        var loot_count = Object.keys($scope.loot_json[level][r.name]).length;
         var rand_idx = Math.ceil(Math.random()*loot_count)-1;
-        $scope.loot += $scope.loot_json[level][r][rand_idx].name;
-        if (n < num -1) $scope.loot += ", ";
-      }
+        $scope.loot.push(
+          {
+            name: $scope.loot_json[level][r.name][rand_idx].name,
+            colour: r.colour
+          }
+        )
+        if (n < num -1) $scope.loot.push(
+          {
+            name: ", ",
+            colour: "black"
+          }
+        );
+      } 
     }
   }
   ]
