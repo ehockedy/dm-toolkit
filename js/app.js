@@ -13,6 +13,10 @@ app.config(function ($routeProvider) {
         controller: "LootGeneratorController",
         templateUrl: "views/loot-generator.html"
       })
+      .when('/clothing-tracker', {
+        controller: "ClothingTrackerController",
+        templateUrl: "views/clothing-tracker.html"
+      })
       .otherwise({
         redirectTo: '/'
       });

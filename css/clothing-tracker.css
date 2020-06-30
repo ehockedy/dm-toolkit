@@ -1,0 +1,11 @@
+.body_part {
+    cursor: pointer;
+    stroke-width: 0;
+    fill: #000000;
+}
+
+.body_part:hover {
+    cursor: pointer;
+    stroke-width: 0;
+    fill: #0055AA;
+}
