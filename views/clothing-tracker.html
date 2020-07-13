@@ -1,1 +1,6 @@
-<div class="svg" body-svg></div>
+<div ng-controller="ClothingTrackerController">
+    <input type="text" id="myText" ng-model="itemNameFill" ng-keypress="key_press($event.keyCode)"/>
+    <br>
+    <textarea rows="4" cols="50" name="description" ng-model="itemDescrFill" ng-keypress="key_press($event.keyCode)"></textarea>
+    <div class="svg" body-svg></div>
+</div>
