@@ -1,108 +1,173 @@
 {
-    "low": 
-        {
-            "common": [
-                "1 copper piece",
-                "5 copper pieces",
-                "10 copper pieces",
-                "20 copper pieces",
-                "50 copper pieces",
-                "100 copper pieces",
-                "200 copper pieces",
-
-                "1 silver piece",
-                "5 silver pieces",
-                "10 silver pieces",
-                "20 silver pieces",
-                "1 gold piece"
-            ],
-            "uncommon": [
-                "silver ring",
-                "silver necklace",
-                "small bronze statue",
-                "500 copper pieces",
-                "50 silver pieces",
-                "5 gold pieces"
-            ],
-            "rare": [
-                "10 gold pieces",
-                "20 gold pieces",
-                "azurite",
-                "quartz",
-                "moonstone",
-                "onyx",
-                "silk hankerchief",
-                "silver hand mirror"
-            ],
-            "very rare": [
-                "gold ring",
-                "ruby",
-                "sapphire",
-                "quartz",
-                "emerald"
-            ]
-        },
-    "med":
-        {
-            "common": [
-                "200 copper pieces",
-                "500 copper pieces",
-                "10 silver pieces",
-                "20 silver pieces",
-                "50 silver pieces",
-                "100 silver pieces",
-                "200 silver pieces",
-                "5 gold pieces",
-                "10 gold pieces",
-                "silver ring",
-                "ruby",
-                "sapphire",
-                "quartz",
-                "emerald"
-            ],
-            "uncommon": [
-                "500 silver pieces",
-                "50 gold pieces",
-                "100 gold pieces"
-            ],
-            "rare": [
-                "gold crown",
-                "gold goblet",
-                "giant pearl",
-                "gold locket"
-            ],
-            "very rare": [
-                "diamond",
-                "black sapphire"
-            ]
-        }
-    ,
-    "magic": 
-        {
-            "common": [
-                "healing potion",
-                "bag of seeds"
-            ],
-            "uncommon": [
-                "potion of greater healing",
-                "potion of bravery",
-                "potion of good luck",
-                "potion of skill",
-                "potion of accuracy",
-                "potion of strength",
-                "potion of resilience"
-            ],
-            "rare": [
-                "potion of superior healing",
-                "scroll of invisibility",
-                "potion of climbing",
-                "potion of water breathing",
-                "potion of magic restore",
-                "poison antidote"
-            ],
-            "very rare": [
-                "bag of holding",
-                "elemental armour"
-            ]
-        }    
+    "low": {
+        "common": [
+            "1 copper piece",
+            "5 copper pieces",
+            "10 copper pieces",
+            "20 copper pieces",
+            "50 copper pieces",
+            "100 copper pieces",
+            "200 copper pieces",
+            "1 silver piece",
+            "5 silver pieces",
+            "10 silver pieces",
+            "20 silver pieces",
+            "1 gold piece",
+            "2 gold pieces",
+            "5 gold pieces"
+        ],
+        "uncommon": [
+            "silver ring",
+            "silver necklace",
+            "silver bracelet",
+            "bronze ring",
+            "brass ring",
+            "bronze goblet",
+            "small bronze statue",
+            "500 copper pieces",
+            "50 silver pieces",
+            "5 gold pieces",
+            "10 gold pieces",
+            "half empty bottle of whisky",
+            "dusty bottle of wine",
+            "glass vase",
+            "wheel of cheese",
+            "dried meat",
+            "painted plate",
+            "tiled pot",
+            "section of a large, fractured metal disc"
+        ],
+        "rare": [
+            "10 gold pieces",
+            "20 gold pieces",
+            "azurite",
+            "quartz",
+            "moonstone",
+            "onyx",
+            "silk hankerchief",
+            "silver hand mirror",
+            "intricate glass elephant figurine",
+            "decorated silver goat figurine",
+            "bronze holy cross",
+            "old, cracked wand",
+            "jar of saffron",
+            "sachet of spicy pepper powder",
+            "packet of paprika",
+            "pot of black pepper",
+            "small bag of curry leaves"
+        ],
+        "very rare": [
+            "gold ring",
+            "ruby",
+            "sapphire",
+            "quartz",
+            "emerald"
+        ]
+    },
+    "med": {
+        "common": [
+            "200 copper pieces",
+            "500 copper pieces",
+            "10 silver pieces",
+            "20 silver pieces",
+            "50 silver pieces",
+            "100 silver pieces",
+            "200 silver pieces",
+            "5 gold pieces",
+            "10 gold pieces",
+            "silver ring",
+            "ruby",
+            "sapphire",
+            "quartz",
+            "emerald"
+        ],
+        "uncommon": [
+            "500 silver pieces",
+            "50 gold pieces",
+            "100 gold pieces"
+        ],
+        "rare": [
+            "gold crown",
+            "gold goblet",
+            "giant pearl",
+            "gold locket"
+        ],
+        "very rare": [
+            "diamond",
+            "black sapphire"
+        ]
+    },
+    "magic": {
+        "common": [
+            "healing potion",
+            "bag of seeds"
+        ],
+        "uncommon": [
+            "potion of greater healing",
+            "potion of bravery",
+            "potion of good luck",
+            "potion of skill",
+            "potion of accuracy",
+            "potion of strength",
+            "potion of resilience"
+        ],
+        "rare": [
+            "potion of superior healing",
+            "scroll of invisibility",
+            "potion of climbing",
+            "potion of water breathing",
+            "potion of magic restore",
+            "poison antidote"
+        ],
+        "very rare": [
+            "bag of holding",
+            "elemental armour"
+        ]
+    },
+    "trader": {
+        "common": [
+            "section of a large fractured metal disc",
+            "paint brush set",
+            "black paint",
+            "blue paint",
+            "red paint",
+            "green paint",
+            "yellow paint",
+            "pair of glasses",
+            "set of silver spoons",
+            "lion figurine",
+            "tiger figurine",
+            "really nice hat",
+            "really ugly hat",
+            "butterfly collection",
+            "pot of ink",
+            "writing quill",
+            "few sheets of good quality paper",
+            "a few nice shells",
+            "a few nice rocks"
+        ],
+        "uncommon": [
+            "bag of seeds",
+            "mysterious portrait painting",
+            "landscape painting",
+            "binoculars",
+            "compass",
+            "ogre skull",
+            "goat skull",
+            "sheek skull",
+            "shrunken head",
+            "jar of hair",
+            "large conch"
+        ],
+        "rare": [
+            "bag of holding",
+            "treasure map",
+            "animal trap"
+        ],
+        "very rare": [
+            "elemental armour",
+            "glasses of perception",
+            "hat of disguise"
+        ]
+    }
 }

@@ -50,18 +50,19 @@ app.controller('LootGeneratorController',
       }
     };
 
-    $scope.generate_loot = function(level, num) {
+    $scope.generate_loot = function(type, num) {
       // Returns an array of json with fields name and colour
       // name is the string of the loot (or comma)
       // colour is the colour that string will be displayed
       $scope.loot = []
       for (var n = 0; n < num; n++) {
         var r = generate_rarity();
-        var loot_count = Object.keys($scope.loot_json[level][r.name]).length;
+        var loot_count = Object.keys($scope.loot_json[type][r.name]).length;
         var rand_idx = Math.ceil(Math.random()*loot_count)-1;
+
         $scope.loot.push(
           {
-            name: $scope.loot_json[level][r.name][rand_idx],
+            name: $scope.loot_json[type][r.name][rand_idx],
             colour: r.colour
           }
         )
